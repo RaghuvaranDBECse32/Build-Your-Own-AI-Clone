@@ -1,17 +1,3 @@
-# Make-AI-Clone-of-Yourself
-
-### Full Video Tutorial on [Youtube](https://youtu.be/a2_ZvzE55cA) - <https://youtu.be/a2_ZvzE55cA>
-
-## Motivation
-
-I saw a reel on Instagram in which an AI enthusiast created an AI clone of himself to talk to his girlfriend (Certainly, I won't do that... xd) using [RAG](https://youtu.be/YVWxbHJakgg?feature=shared) Retrieval Augmented Generation and the Chat GPT-3.5 turbo API. It kind of worked, but it had major privacy issues. Sending personal chats to Chat GPT could potentially result in those chats being used by OpenAI to train its model. This led me to think, what if I fine-tuned a pre-existing model like Llama or Mixtral on my personal WhatsApp chat history? It would be cool to have a model that can talk like me as I do on WhatsApp, primarily in Hinglish (Hindi + English).
-
-[Fine-tuning a large language model (LLM)](https://youtu.be/YVWxbHJakgg?feature=shared) requires a good understanding of LLMs in general. The major challenge with fine-tuning big models, such as a 7B parameter model, is that it requires a minimum of 32GB of GPU RAM, which is costly and not available in free-tier GPU compute services like Colab or Kaggle. So, I had to find a way around this limitation.
-
-Another important aspect is that the fine-tuning results heavily depend on the quality and size of the dataset used. Converting raw WhatsApp chat data into a usable dataset is challenging but worth pursuing.
-
-Let's see how it looks in reality and how it's being carried out.
-
 ## Google Colab Notebook
 
 Here is link of [Google Colab Notebook](https://colab.research.google.com/drive/1OGkiAZsYfShY0o8ZphCUuXkmb2Om422X?usp=sharing)
